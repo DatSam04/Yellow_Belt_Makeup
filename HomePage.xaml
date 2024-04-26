@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Story_App_Isabella.HomePage"
+             Title="HomePage">
+    <Grid SizeChanged="Grid_SizeChanged">
+
+        <Image 
+        Source="water_jpg.jpg"
+        Aspect="AspectFill"
+         />
+
+        <Label
+         Text="Can You Canoe? A Canoeing Outing With Mary and Joe"
+         TextColor="DarkRed"
+         FontSize="40"
+         HorizontalTextAlignment="Center"
+         TextTransform="Uppercase"  
+         FontAttributes="Bold"
+         x:Name="Title"
+        />
+        <Button
+         Text="Start Story"
+         TextColor="Black" 
+         WidthRequest="200"
+         HeightRequest="90"
+         BackgroundColor="DarkRed"  
+         Margin="0,0,0,300"
+         VerticalOptions="End"
+         FontSize="20"
+         x:Name="ButtonIs"
+         Clicked="ButtonIsClicked"
+         />
+
+        <Button
+         Text="Map of route"
+         WidthRequest="200"
+         HeightRequest="90"
+         BackgroundColor="DarkGreen"  
+         Margin="0,0,0,200"
+         VerticalOptions="End"
+         FontSize="20"
+         TextColor="Black"
+         x:Name="ButtonOliv"
+         Clicked="ButtonOlivClicked"
+        />
+
+        <Button
+         Text="Exit"
+         WidthRequest="200"
+         HeightRequest="90"
+         BackgroundColor="DarkBlue"  
+         Margin="0,0,0,100"
+         VerticalOptions="End"
+         FontSize="20"
+         TextColor="Black"
+         x:Name="ButtonJulse"
+         />
+    </Grid>
+    
+</ContentPage>
