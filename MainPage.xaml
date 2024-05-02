@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Story_App_Isabella.MainPage">
+
+    <Grid>
+
+        <Border
+            x:Name="TextBox_1"
+            WidthRequest="300"
+            HeightRequest="300"
+            BackgroundColor="GhostWhite"
+            Stroke="Black"
+            StrokeThickness="3"
+            StrokeShape="RoundRectangle 40,0,0,40"
+            VerticalOptions="Start"
+            Margin="0, 80, 0, 0">
+            <VerticalStackLayout>
+
+                <Label
+                x:Name="Chapter_1"
+                Text="A young couple is going on a canoeing trip with a group of three other canoes and seven other people.Starting at Washington D.C., they will boat down the atlantic and land in Maine.  Their boat is 5J."
+                Padding="20" />
+                <Label
+                    
+                    x:Name="Part_2"
+                    Text="33 miles away from shore, the couple got distracted by a pod of about about a hundread dolphins!  When they finally looked back, the fleet was gone!  Worse, there were no paddle marks to guide the way."
+                    Padding="20"/>
+
+            </VerticalStackLayout>
+        </Border>
+
+    </Grid>
+
+</ContentPage>
