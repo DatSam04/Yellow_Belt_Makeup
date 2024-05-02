@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Story_App_Isabella.StoryMaps"
+             Title="StoryMaps">
+
+    <Border
+         x:Name="TextBox_1"
+        WidthRequest="300"
+        HeightRequest="300"
+        BackgroundColor="GhostWhite"
+        Stroke="Black"
+        StrokeThickness="3"
+        StrokeShape="RoundRectangle 40,0,0,40"
+        VerticalOptions="Start"
+        Margin="0, 80, 0, 0">
+        <Label
+          x:Name="Map_Option"
+          Text="The maps"
+          Padding="20"
+          />
+        </Border>
+</ContentPage>
